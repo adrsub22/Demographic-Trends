@@ -1,0 +1,76 @@
+# ---------------------------------------
+# Python
+# ---------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+ENV/
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------
+# Jupyter / notebooks (optional)
+# ---------------------------------------
+.ipynb_checkpoints/
+
+# ---------------------------------------
+# OS / editor
+# ---------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------------------------------------
+# Outputs (generated data)
+# ---------------------------------------
+outputs/
+*.log
+
+# ---------------------------------------
+# GIS formats (generated or large)
+# ---------------------------------------
+# GeoPackage
+*.gpkg
+*.gpkg-journal
+
+# Zips (TIGER downloads, publish bundles, etc.)
+*.zip
+
+# Shapefiles + sidecars (even if you stop using them, these pop up)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.qix
+*.fix
+*.shp.xml
+
+# Geodatabases
+*.gdb/
+*.gdb.zip
+
+# ---------------------------------------
+# Data inputs that should NOT be committed
+# ---------------------------------------
+# Crosswalk file(s) may have redistribution constraints — keep out of git
+data/crosswalk/
+data/**/crosswalk/
+*blk2010*bg2020*.csv
+*block*bg*.csv
+*crosswalk*.csv
+
+# If you download TIGER locally, keep it out too
+tl_20*_**_bg/
+tl_20*_**_bg.zip
