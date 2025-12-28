@@ -65,9 +65,3 @@ Packages the output shapefile into a zip and:
 - publishes a new Hosted Feature Layer (configurable)
 
 ---
-
-## Repository structure (recommended)
-
-```text
-  scripts/
-    run_pipeline.py
